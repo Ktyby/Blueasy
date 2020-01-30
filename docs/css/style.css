@@ -479,3 +479,100 @@ a {
     width: 100vw;
     padding: 21px 0 15px 0;
     top: -17px; } }
+
+.services {
+  padding-bottom: 64px;
+  background: #4bcaff; }
+
+.services__container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 64px; }
+
+.services__title {
+  margin: 0 50px 0 0;
+  position: relative;
+  color: #fff;
+  font-family: "SegoeUI Light", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: uppercase; }
+
+.services__title::after {
+  display: block;
+  width: 45px;
+  height: 2px;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background-color: #fff; }
+
+.services__list {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin-top: 39px;
+  padding: 0; }
+
+.services__item {
+  width: 270px; }
+
+.services__item-title {
+  margin: 8px 0 4px 0;
+  font-family: "SegoeUI SemiBold", "Arial", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+.services__text {
+  margin: 0;
+  font-family: "SegoeUI SemiBold", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5; }
+
+.services__image--coffee {
+  width: 34px;
+  height: 48px; }
+
+.services__image--instant {
+  width: 48px;
+  height: 48px; }
+
+.services__image--serious {
+  width: 47px;
+  height: 45px; }
+
+.services__image--frame {
+  width: 48px;
+  height: 48px; }
+
+@media screen and (max-width: 1200px) {
+  .services__container {
+    width: 580px;
+    margin: 0 auto; }
+  .services__list {
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    flex-wrap: wrap; }
+  .services__item {
+    margin-bottom: 40px;
+    text-align: center; }
+  .services__title {
+    margin: 0;
+    text-align: center; }
+  .services__title::after {
+    display: none; } }
+
+@media screen and (max-width: 600px) {
+  .services__container {
+    width: 300px; }
+  .services__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center; } }

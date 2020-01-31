@@ -1,0 +1,51 @@
+$top-color: #4bcaff;
+$top-color-hvr: #515f67;
+
+.form {
+	margin-top: 35px;
+}
+
+.form__top__section {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 0 auto;
+}
+
+.form__button {
+	width: 370px;
+    height: 60px;
+    
+    border: none;
+
+    background: $top-color;
+    color: #fff;
+	
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+
+	transition: .3s;
+}
+
+@media screen and (min-width: 1200px) {
+
+	.form__button:hover {
+        background: #fff;
+        color: $top-color-hvr;
+        
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .form__top__section {
+        flex-wrap: wrap;
+    }
+
+    .form__button {
+		width: 300px;
+    }
+}

@@ -1205,3 +1205,181 @@ a {
   .testimonials {
     width: 270px;
     padding-top: 40px; } }
+
+.contact {
+  padding-bottom: 80px;
+  background: #515f67 url(../img/third-bg.jpg) no-repeat center top/cover; }
+
+.contact__container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 67px; }
+
+.contact__title {
+  margin: 0;
+  position: relative;
+  color: #fff;
+  font-family: "SegoeUI Light", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: uppercase; }
+
+.contact__title::after {
+  display: block;
+  width: 45px;
+  height: 2px;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background-color: #fff; }
+
+@media screen and (max-width: 1200px) {
+  .contact {
+    padding-bottom: 40px; }
+  .contact__container {
+    width: 300px;
+    padding-top: 40px; }
+  .contact__title {
+    text-align: center; }
+  .contact__title::after {
+    display: none; } }
+
+.form {
+  margin-top: 35px; }
+
+.form__top__section {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto; }
+
+.form__button {
+  width: 370px;
+  height: 60px;
+  border: none;
+  background: #4bcaff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+@media screen and (min-width: 1200px) {
+  .form__button:hover {
+    background: #fff;
+    color: #515f67;
+    cursor: pointer; } }
+
+@media screen and (max-width: 1200px) {
+  .form__top__section {
+    flex-wrap: wrap; }
+  .form__button {
+    width: 300px; } }
+
+.fieldset {
+  padding: 0;
+  border: none; }
+
+.fieldset__label {
+  display: block;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.fieldset__input--name {
+  width: 465px;
+  height: 52px;
+  margin-top: 4px;
+  margin-bottom: 35px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal; }
+
+.fieldset__input--email {
+  width: 465px;
+  height: 52px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal; }
+
+@media screen and (max-width: 1200px) {
+  .fieldset {
+    margin: 0 auto; }
+  .fieldset__input--name {
+    width: 296px;
+    height: 40px;
+    font-size: 18px; }
+  .fieldset__input--email {
+    width: 296px;
+    height: 40px;
+    font-size: 18px; } }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; }
+
+.address {
+  width: 550px;
+  margin-right: 17px;
+  margin-top: 15px; }
+
+.address__text {
+  margin: 0 0 30px 0;
+  line-height: 1.8; }
+
+.address__info {
+  margin: 0 0 23px 0;
+  line-height: 1.8; }
+
+.address__item {
+  margin: 0;
+  line-height: 1.75; }
+
+@media screen and (max-width: 1200px) {
+  .address {
+    width: 300px;
+    margin: 0 auto; } }
+
+.message {
+  margin-bottom: 34px; }
+
+.message__label {
+  display: block;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.message__textarea {
+  width: 1162px;
+  height: 212px;
+  margin-top: 4px;
+  border: 2px solid #fff;
+  resize: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal; }
+
+@media screen and (max-width: 1200px) {
+  .message {
+    width: 300px; }
+  .message__textarea {
+    width: 292px;
+    height: 80px;
+    font-size: 18px; } }

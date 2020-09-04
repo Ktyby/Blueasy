@@ -364,16 +364,16 @@ a {
   font-weight: normal;
   text-transform: uppercase;
   text-align: center; }
-  .header__title--first {
+
+.header__title-part {
+  background: rgba(53, 63, 70, 0.85);
+  line-height: 1.4; }
+  .header__title-part--first {
     margin: 12px auto;
-    padding: 1px 15px 6px 22px;
-    background: rgba(53, 63, 70, 0.85);
-    line-height: 1.4; }
-  .header__title--second {
+    padding: 1px 15px 6px 22px; }
+  .header__title-part--second {
     margin: 0 auto;
-    padding: 0px 19px 7px 17px;
-    background: rgba(53, 63, 70, 0.85);
-    line-height: 1.4; }
+    padding: 0px 19px 7px 17px; }
 
 @media screen and (max-width: 1200px) {
   .header {
@@ -391,10 +391,8 @@ a {
     flex-wrap: wrap;
     width: 580px;
     font-size: 28px; }
-    .header__title--first {
-      margin: 0 auto; }
-    .header__title--second {
-      margin: 0 auto; } }
+  .header__title-part {
+    margin: 0 auto; } }
 
 @media screen and (max-width: 640px) {
   .header__top-panel {
@@ -409,10 +407,8 @@ a {
     flex-wrap: wrap;
     width: 300px;
     font-size: 28px; }
-    .header__title--first {
-      margin: 0 auto; }
-    .header__title--second {
-      margin: 0 auto; } }
+  .header__title-part {
+    margin: 0 auto; } }
 
 .nav__list {
   display: -webkit-box;
@@ -1248,7 +1244,7 @@ a {
 .form {
   margin-top: 35px; }
 
-.form__top__section {
+.form__top-section {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -1274,16 +1270,16 @@ a {
     cursor: pointer; } }
 
 @media screen and (max-width: 1200px) {
-  .form__top__section {
+  .form__top-section {
     flex-wrap: wrap; }
   .form__button {
     width: 300px; } }
 
-.fieldset {
+.user-info {
   padding: 0;
   border: none; }
 
-.fieldset__label {
+.user-info__label {
   display: block;
   margin: 0;
   color: #fff;
@@ -1291,7 +1287,7 @@ a {
   font-weight: bold;
   text-transform: uppercase; }
 
-.fieldset__input--name {
+.user-info__input {
   width: 465px;
   height: 52px;
   margin-top: 4px;
@@ -1302,25 +1298,10 @@ a {
   font-size: 24px;
   font-weight: normal; }
 
-.fieldset__input--email {
-  width: 465px;
-  height: 52px;
-  margin-top: 4px;
-  margin-bottom: 20px;
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  font-size: 24px;
-  font-weight: normal; }
-
 @media screen and (max-width: 1200px) {
-  .fieldset {
+  .user-info {
     margin: 0 auto; }
-  .fieldset__input--name {
-    width: 296px;
-    height: 40px;
-    font-size: 18px; }
-  .fieldset__input--email {
+  .user-info__input {
     width: 296px;
     height: 40px;
     font-size: 18px; } }

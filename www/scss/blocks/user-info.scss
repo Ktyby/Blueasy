@@ -1,0 +1,47 @@
+.user-info {
+    padding: 0;
+
+	border: none;
+}
+
+.user-info__label {
+    display: block;
+
+    margin: 0;
+    
+    color: #fff;
+
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.user-info__input {
+	width: 465px;
+  height: 52px;
+    
+  margin-top: 4px;
+	margin-bottom: 35px;
+
+  border: 2px solid #fff;
+    
+  background-color: transparent;
+  color: #fff;
+
+	font-size: 24px;
+	font-weight: normal;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .user-info {
+      margin: 0 auto;
+    }
+    
+    .user-info__input {
+			width: 296px;
+			height: 40px;
+
+			font-size: 18px;
+	}
+}

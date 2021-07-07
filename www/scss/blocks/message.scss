@@ -1,0 +1,46 @@
+.message {
+	margin-bottom: 34px;
+}
+
+.message__label {
+    display: block;
+
+    margin: 0;
+
+    color: #fff;
+
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.message__textarea {
+    width: 1162px;
+	height: 212px;
+
+	margin-top: 4px;
+	
+	border: 2px solid #fff;
+	resize: none;
+
+    background-color: transparent;
+    color: #fff;
+
+	font-size: 24px;
+	font-weight: normal;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .message {
+        width: 300px;
+    }
+
+    .message__textarea {
+		width: 292px;
+		height: 80px;
+
+		font-size: 18px;
+    }
+}

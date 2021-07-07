@@ -1,0 +1,63 @@
+$top-color: #515f67;
+$font-light: "SegoeUI Light", "Arial", sans-serif;
+
+.contact {
+	padding-bottom: 80px;
+ 
+	background: $top-color url(../img/third-bg.jpg)  no-repeat center top / cover;
+}
+
+.contact__container {
+	width: 1170px;
+
+	margin: 0 auto;
+	padding-top: 67px;
+}
+
+.contact__title {
+	margin: 0;
+
+	position: relative;
+
+	color: #fff;
+	
+	font-family: $font-light;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.contact__title::after {
+	display: block;
+
+	width: 45px;
+	height: 2px;
+
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+
+	background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.contact {
+		padding-bottom: 40px;
+	}
+	
+	.contact__container {
+		width: 300px;
+
+		padding-top: 40px;
+	}
+
+	.contact__title {
+		text-align: center;
+	}
+
+	.contact__title::after {
+		display: none;
+	}
+}	

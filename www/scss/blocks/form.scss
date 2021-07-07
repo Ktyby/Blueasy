@@ -5,7 +5,7 @@ $top-color-hvr: #515f67;
 	margin-top: 35px;
 }
 
-.form__top__section {
+.form__top-section {
 	display: flex;
 	justify-content: space-between;
 
@@ -41,11 +41,11 @@ $top-color-hvr: #515f67;
 
 @media screen and (max-width: 1200px) {
     
-    .form__top__section {
+    .form__top-section {
         flex-wrap: wrap;
     }
 
     .form__button {
-		width: 300px;
+			width: 300px;
     }
 }

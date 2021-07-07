@@ -1,0 +1,116 @@
+$color-link: #4bcaff;
+$top-color: #515f67;
+$font-light: "SegoeUI Light", "Arial", sans-serif;
+$font-bold: "SegoeUI Bold", "Arial", sans-serif;
+
+.testimonials {
+	width: 1170px;
+
+	margin: 0 auto;
+	padding-top: 65px;
+	padding-bottom: 73px;
+
+	position: relative;
+
+	background: #fff;
+}
+
+.testimonials::before {
+	display: block;
+	
+	width: 32px;
+	height: 26px;
+
+	position: absolute;
+	content: "";
+	top: 78px;
+	left: 1138px;
+	
+	background: url(../img/quotes.png);
+}
+
+.testimonials__title {
+	margin: 0;
+
+	position: relative;
+
+	color: $top-color;
+
+	font-family: $font-light;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.testimonials__title::after {
+	display: block;
+	
+	width: 45px;
+	height: 2px;
+
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+
+	background-color: $top-color;
+}
+
+.testimonials__text {
+	margin: 25px 0 25px 0;
+		
+	color: $top-color;
+
+	font-family: $font-light;
+	font-size: 28px;
+	font-weight: lighter;
+	line-height: 1.85;
+}
+
+.testimonials__link {
+	color: $color-link;
+
+	font-family: $font-bold;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.testimonials {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		width: 580px;
+	}
+
+	.testimonials::before {
+		display: none;
+	}
+
+	.testinmonials__title {
+		margin-bottom: 20px;
+	}
+
+	.testimonials__title::after {
+		display: none;
+	}
+
+	.testimonials__text {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.testimonials {
+		padding-bottom: 40px;
+	}
+	
+	.testimonials {
+		width: 270px;
+		padding-top: 40px;
+	}
+}

@@ -46,23 +46,21 @@ $font-light: "SegoeUI Light", "Arial", sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: center;
+}
+
+.header__title-part {
+	background: $background-color;
+
+	line-height: 1.4;
 
 	&--first {
 		margin: 12px auto;
-		padding: 1px 15px 6px 22px;
-
-		background: $background-color;
-
-		line-height: 1.4;
+		padding: 1px 15px 6px 22px;	
 	}
 
 	&--second {
 		margin: 0 auto;
 		padding: 0px 19px 7px 17px;
-
-		background: $background-color;
-		
-		line-height: 1.4;
 	}
 }
 
@@ -90,14 +88,10 @@ $font-light: "SegoeUI Light", "Arial", sans-serif;
 		width: 580px;
 
 		font-size: 28px; 
+	}
 
-		&--first {
-			margin: 0 auto;
-		}
-
-		&--second {
-			margin: 0 auto; 
-		}
+	.header__title-part {
+		margin: 0 auto; 
 	}
 }
 
@@ -120,13 +114,9 @@ $font-light: "SegoeUI Light", "Arial", sans-serif;
 		width: 300px;
 
 		font-size: 28px; 
+	}
 
-		&--first {
-			margin: 0 auto;
-		}	
-
-		&--second {
-			margin: 0 auto; 
-		}
+	.header__title-part {
+		margin: 0 auto; 
 	}
 }

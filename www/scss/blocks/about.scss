@@ -1,0 +1,92 @@
+$top-color: #515f67;
+$font-light: "SegoeUI Light", "Arial", sans-serif;
+$hvr-btn-link: #4bcaff;
+
+.about {
+	padding-bottom: 165px;
+ 
+	background: $top-color url(../img/second-bg.jpg)  no-repeat center top / cover;
+}
+
+.about__container {
+	width: 1170px;
+
+	margin: 0 auto;
+	padding-top: 86px;
+}
+
+.about__title {
+	margin: 0;
+
+	position: relative;
+
+	color: #fff;
+
+	font-family: $font-light;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.about__title::after {
+	display: block;
+	
+	width: 45px;
+	height: 2px;
+
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+
+	background-color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+
+	.about__list a:hover {
+		padding: 17px 17px 9px 17px;
+		
+		border: 2px solid #fff;
+
+		background-color: $hvr-btn-link;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+
+	.about__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		width: 580px;
+	}
+
+	.about-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about__title::after {
+		display: none;
+	}
+
+    .about-info__text {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.about {
+		padding-bottom: 40px;
+	}
+
+	.about__container {
+		width: 300px;
+
+		padding-top: 40px;
+	}
+}
